@@ -70,6 +70,9 @@
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="submitTapped:" destination="uC3-1d-UKF" eventType="touchUpInside" id="nRU-YN-5rQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -106,6 +109,14 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="iEG-2m-S7q" id="Mqw-Sm-7LG"/>
+                        <outlet property="firstNameField" destination="PEH-Ca-1lh" id="uI1-Oj-X7R"/>
+                        <outlet property="lastNameField" destination="afg-Cl-HbV" id="CoN-88-IMR"/>
+                        <outlet property="passwordField" destination="eow-Z9-bNG" id="9gu-Df-Z2M"/>
+                        <outlet property="submitButton" destination="I50-a8-2vB" id="Ybc-9Z-2MS"/>
+                        <outlet property="usernameField" destination="Ok9-R3-Aqh" id="uFo-Z4-1Jv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DSc-YJ-aRR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
